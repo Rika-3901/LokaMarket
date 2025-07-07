@@ -53,6 +53,10 @@ import knit_bag_image from "./knit_bag_image.png";
 import knit_hat_image from "./knit_hat_image.png";
 import leather_jacket_image from "./leather_jacket_image.png";
 import leather_shoes_image from "./leather_shoes_image.png";
+import batik_inner_image from "./batik_inner_image.png";
+import straw_woven_hat_image from "./straw_woven_hat_image";
+import straw_woven_hat2_image from "./straw_woven_hat2_image";
+import straw_woven_hat3_image from "./straw_woven_hat3_image";
 import product_details_page_apple_earphone_image1 from "./product_details_page_apple_earphone_image1.png";
 import product_details_page_apple_earphone_image2 from "./product_details_page_apple_earphone_image2.png";
 import product_details_page_apple_earphone_image3 from "./product_details_page_apple_earphone_image3.png";
@@ -114,6 +118,10 @@ export const assets = {
   knit_hat_image,
   leather_jacket_image,
   leather_shoes_image,
+  batik_inner_image,
+  straw_woven_hat_image,
+  straw_woven_hat2_image,
+  straw_woven_hat3_image,
   product_details_page_apple_earphone_image1,
   product_details_page_apple_earphone_image2,
   product_details_page_apple_earphone_image3,
@@ -163,7 +171,7 @@ export const productsDummyData = [
     "price": 499.99,
     "offerPrice": 399.99,
     "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/k4dafzhwhgcn5tnoylrw.webp",
+      "https://raw.githubusercontent.com/Rika-3901/LokaMarket/main/assets/knit_hat_image.png",
       "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/j212frakb8hdrhvhajhg.webp",
       "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/imwuugqxsajuwqpkegb5.webp",
       "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/k1oqaslw5tb3ebw01vvj.webp"
@@ -180,7 +188,7 @@ export const productsDummyData = [
     "price": 429.99,
     "offerPrice": 329.99,
     "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/m16coelz8ivkk9f0nwrz.webp"
+      "https://raw.githubusercontent.com/Rika-3901/LokaMarket/main/assets/leather_jacket_image.png"
     ],
     "category": "Headphone",
     "date": 1738667310300,
@@ -194,7 +202,7 @@ export const productsDummyData = [
     "price": 899.99,
     "offerPrice": 799.99,
     "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/xjd4eprpwqs7odbera1w.webp"
+      "https://raw.githubusercontent.com/Rika-3901/LokaMarket/main/assets/knit_bag_image.png"
     ],
     "category": "Smartphone",
     "date": 1738667366224,
@@ -208,7 +216,7 @@ export const productsDummyData = [
     "price": 399.99,
     "offerPrice": 349.99,
     "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/hdfi4u3fmprazpnrnaga.webp"
+      "https://raw.githubusercontent.com/Rika-3901/LokaMarket/main/assets/totebag_batik_image.png"
     ],
     "category": "Earphone",
     "date": 1738667417511,
@@ -222,7 +230,7 @@ export const productsDummyData = [
     "price": 599.99,
     "offerPrice": 499.99,
     "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/dd3l13vfoartrgbvkkh5.webp"
+      "https://raw.githubusercontent.com/Rika-3901/LokaMarket/main/assets/leather_shoes_image.png"
     ],
     "category": "Accessories",
     "date": 1738667503075,
@@ -236,7 +244,7 @@ export const productsDummyData = [
     "price": 4199.99,
     "offerPrice": 3899.99,
     "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/r5h370zuujvrw461c6wy.webp"
+      "https://raw.githubusercontent.com/Rika-3901/LokaMarket/main/assets/rattan_bag_image.png"
     ],
     "category": "Camera",
     "date": 1738667788883,
@@ -250,7 +258,7 @@ export const productsDummyData = [
     "price": 2799.99,
     "offerPrice": 2499.99,
     "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/rzri7kytphxalrm9rubd.webp"
+      "https://raw.githubusercontent.com/Rika-3901/LokaMarket/main/assets/docmart_shoes_image.png"
     ],
     "category": "Laptop",
     "date": 1738667977644,
@@ -264,7 +272,7 @@ export const productsDummyData = [
     "price": 349.99,
     "offerPrice": 299.99,
     "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/e3zjaupyumdkladmytke.webp"
+      "https://raw.githubusercontent.com/Rika-3901/LokaMarket/main/assets/backpack_batik_image.png"
     ],
     "category": "Earphone",
     "date": 1738668086331,
@@ -278,7 +286,7 @@ export const productsDummyData = [
     "price": 1699.99,
     "offerPrice": 1499.99,
     "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/qqdcly8a8vkyciy9g0bw.webp"
+      "https://raw.githubusercontent.com/Rika-3901/LokaMarket/main/assets/elephant_wallet_image.png"
     ],
     "category": "Accessories",
     "date": 1738668126660,
@@ -292,7 +300,7 @@ export const productsDummyData = [
     "price": 2199.99,
     "offerPrice": 1999.99,
     "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/wig1urqgnkeyp4t2rtso.webp"
+      "https://raw.githubusercontent.com/Rika-3901/LokaMarket/main/assets/batik_inner_image.png"
     ],
     "category": "Laptop",
     "date": 1738668619198,
