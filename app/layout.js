@@ -4,7 +4,7 @@ import { ClerkProvider } from "@clerk/nextjs";
 import { Toaster } from "react-hot-toast";
 
 export const metadata = {
-  title: "QuickCart - GreatStack",
+  title: "LokaMarket - Indonesia Market",
   description: "E-Commerce with Next.js",
 };
 
