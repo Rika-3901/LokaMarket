@@ -1,5 +1,5 @@
 import User from "@/models/user";
-import connectDB from ".db";
+import connectDB from "./db";
 import { Inngest } from "inngest";
 
 // Create a client to send and receive events
