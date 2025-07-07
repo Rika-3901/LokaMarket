@@ -6,7 +6,7 @@ const HeaderSlider = () => {
   const sliderData = [
     {
       id: 1,
-      title: "Experience Pure Sound - Your Perfect Headphones Awaits!",
+      title: "Discover Timeless Elegance with Handmade Rattan Bags!",
       offer: "Limited Time Offer 30% Off",
       buttonText1: "Buy now",
       buttonText2: "Find more",
@@ -14,16 +14,16 @@ const HeaderSlider = () => {
     },
     {
       id: 2,
-      title: "Next-Level Gaming Starts Here - Discover PlayStation 5 Today!",
-      offer: "Hurry up only few lefts!",
+      title: "Step Up Your Style – Discover Our Premium Docmart Shoes!",
+      offer: "Limited Stock Available – Grab Yours Now!",
       buttonText1: "Shop Now",
       buttonText2: "Explore Deals",
       imgSrc: assets.docmart_shoes_image,
     },
     {
       id: 3,
-      title: "Power Meets Elegance - Apple MacBook Pro is Here for you!",
-      offer: "Exclusive Deal 40% Off",
+      title: "Show Your Local Pride with Stylish Batik Backpacks!",
+      offer: "Special Offer – 30% Off This Week Only",
       buttonText1: "Order Now",
       buttonText2: "Learn More",
       imgSrc: assets.backpack_batik_image,

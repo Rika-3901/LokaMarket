@@ -6,20 +6,20 @@ const products = [
   {
     id: 1,
     image: assets.girl_with_batik_1_image,
-    title: "Unparalleled Sound",
-    description: "Experience crystal-clear audio with premium headphones.",
+    title: "Authentic Beauty",
+    description: "Chic and breathable batik tops, perfect for warm weather days.",
   },
   {
     id: 2,
     image: assets.girl_with_bag_image,
-    title: "Stay Connected",
-    description: "Compact and stylish earphones for every occasion.",
+    title: "Heritage in Style",
+    description: "Modern bag with a unique batik strap accent",
   },
   {
     id: 3,
     image: assets.girl_with_batik_2_image,
-    title: "Power in Every Pixel",
-    description: "Shop the latest laptops for work, gaming, and more.",
+    title: "Culture Meets Fashion",
+    description: "Timeless batik fashion made for bold, everyday elegance.",
   },
 ];
 

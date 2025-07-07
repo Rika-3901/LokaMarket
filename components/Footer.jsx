@@ -9,12 +9,11 @@ const Footer = () => {
         <div className="w-4/5">
           <Image className="w-28 md:w-32" src={assets.logo} alt="logo" />
           <p className="mt-6 text-sm">
-            Lokamarket didirikan pada awal tahun 2025 dengan semangat untuk menghadirkan produk-produk lokal terbaik dari seluruh penjuru Indonesia. 
-            Kami percaya bahwa kualitas dan kepercayaan adalah kunci utama dalam membangun pengalaman belanja yang memuaskan.
-            Melalui Lokamarket, kami ingin memberdayakan UMKM lokal, memperkenalkan karya anak bangsa, 
-            dan mendekatkan masyarakat dengan produk yang tidak hanya unggul secara kualitas, 
-            tetapi juga memiliki cerita dan nilai budaya di dalamnya.
-            Bersama Lokamarket, mari dukung pertumbuhan ekonomi lokal dan bangga menggunakan produk dalam negeri.
+            LokaMarket — Where Local Meets World-Class
+            Established in early 2025, LokaMarket is driven by the passion to bring Indonesia’s finest local products to a wider audience. 
+            We prioritize quality, authenticity, and trust, connecting you with items that are not only well-crafted but also rich in heritage. 
+            Through LokaMarket, we celebrate local talents, promote cultural pride, and support the growth of Indonesia’s creative economy. 
+            Discover meaningful products with global standards, only at LokaMarket.
           </p>
         </div>
 
