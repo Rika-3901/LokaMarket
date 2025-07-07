@@ -172,11 +172,11 @@ export const productsDummyData = [
     "offerPrice": 149.99,
     "image": [
       "https://raw.githubusercontent.com/Rika-3901/LokaMarket/main/assets/knit_hat_image.png",
-      "https://raw.githubusercontent.com/Rika-3901/LokaMarket/main/assets/straw_woven_hat_image.png",
-      "https://raw.githubusercontent.com/Rika-3901/LokaMarket/main/assets/straw_woven_hat2_image.png",
-      "https://raw.githubusercontent.com/Rika-3901/LokaMarket/main/assets/straw_woven_hat3_image.png"
+      "https://raw.githubusercontent.com/Rika-3901/LokaMarket/main/assets/hat1_image.png",
+      "https://raw.githubusercontent.com/Rika-3901/LokaMarket/main/assets/hat2_image.png",
+      "https://raw.githubusercontent.com/Rika-3901/LokaMarket/main/assets/hat3_image.png"
     ],
-    "category": "Earphone",
+    "category": "accessories",
     "date": 1738667236865,
     "__v": 0
   },
@@ -190,7 +190,7 @@ export const productsDummyData = [
     "image": [
       "https://raw.githubusercontent.com/Rika-3901/LokaMarket/main/assets/leather_jacket_image.png"
     ],
-    "category": "Headphone",
+    "category": "Clothes",
     "date": 1738667310300,
     "__v": 0
   },
@@ -204,7 +204,7 @@ export const productsDummyData = [
     "image": [
       "https://raw.githubusercontent.com/Rika-3901/LokaMarket/main/assets/knit_bag_image.png"
     ],
-    "category": "Smartphone",
+    "category": "Bag",
     "date": 1738667366224,
     "__v": 0
   },
@@ -218,7 +218,7 @@ export const productsDummyData = [
     "image": [
       "https://raw.githubusercontent.com/Rika-3901/LokaMarket/main/assets/totebag_batik_image.png"
     ],
-    "category": "Earphone",
+    "category": "Bag",
     "date": 1738667417511,
     "__v": 0
   },
@@ -232,7 +232,7 @@ export const productsDummyData = [
     "image": [
       "https://raw.githubusercontent.com/Rika-3901/LokaMarket/main/assets/leather_shoes_image.png"
     ],
-    "category": "Accessories",
+    "category": "Shoes",
     "date": 1738667503075,
     "__v": 0
   },
@@ -246,7 +246,7 @@ export const productsDummyData = [
     "image": [
       "https://raw.githubusercontent.com/Rika-3901/LokaMarket/main/assets/rattan_bag_image.png"
     ],
-    "category": "Camera",
+    "category": "Bag",
     "date": 1738667788883,
     "__v": 0
   },
@@ -255,12 +255,12 @@ export const productsDummyData = [
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
     "name": "BlushStride Docmart Shoes",
     "description": "Unleash your bold side with BlushStride Docmart Boots — specially designed for girls who embrace strength and style. Featuring soft pink leather, cushioned insoles, and a timeless silhouette, they’re perfect for everyday looks",
-    "price": 2799.99,
-    "offerPrice": 2499.99,
+    "price": 499.99,
+    "offerPrice": 399.99,
     "image": [
       "https://raw.githubusercontent.com/Rika-3901/LokaMarket/main/assets/docmart_shoes_image.png"
     ],
-    "category": "Laptop",
+    "category": "Shoes",
     "date": 1738667977644,
     "__v": 0
   },
@@ -274,7 +274,7 @@ export const productsDummyData = [
     "image": [
       "https://raw.githubusercontent.com/Rika-3901/LokaMarket/main/assets/backpack_batik_image.png"
     ],
-    "category": "Earphone",
+    "category": "Bag",
     "date": 1738668086331,
     "__v": 0
   },
@@ -288,7 +288,7 @@ export const productsDummyData = [
     "image": [
       "https://raw.githubusercontent.com/Rika-3901/LokaMarket/main/assets/elephant_wallet_image.png"
     ],
-    "category": "Accessories",
+    "category": "Bag",
     "date": 1738668126660,
     "__v": 0
   },
@@ -302,7 +302,7 @@ export const productsDummyData = [
     "image": [
       "https://raw.githubusercontent.com/Rika-3901/LokaMarket/main/assets/batik_inner_image.png"
     ],
-    "category": "Laptop",
+    "category": "Clothes",
     "date": 1738668619198,
     "__v": 0
   }
@@ -328,10 +328,10 @@ export const orderDummyData = [
         "product": {
           "_id": "67a1f4e43f34a77b6dde9144",
           "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-          "name": "Apple AirPods Pro",
-          "description": "Apple AirPods Pro (2nd Gen) with MagSafe Case (USB-C) provide excellent sound, active noise cancellation, and a comfortable fit. The USB-C case ensures quick charging, and they pair seamlessly with Apple devices for an effortless audio experience.",
-          "price": 499.99,
-          "offerPrice": 399.99,
+          "name": "Nara Straw Woven Sun Hat",
+          "description": "Handcrafted with care by local artisans, this straw woven sun hat offers both style and comfort. Perfect for sunny days, it provides natural breathability, lightweight feel, and timeless charm — a must-have accessory for your tropical getaways.",
+          "price": 199.99,
+          "offerPrice": 149.99,
           "image": [
             "https://res.cloudinary.com/djbvf02yt/image/upload/v1738667237/lrllaprpos2pnp5c9pyy.png",
             "https://res.cloudinary.com/djbvf02yt/image/upload/v1738667238/jqotgy2rvm36vfjv6lxl.png",
@@ -370,10 +370,10 @@ export const orderDummyData = [
         "product": {
           "_id": "67a1f52e3f34a77b6dde914a",
           "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-          "name": "Bose QuietComfort 45",
-          "description": "The Bose QuietComfort 45 headphones are engineered for exceptional sound quality and unparalleled noise cancellation. With a 24-hour battery life and comfortable, lightweight design, these headphones deliver premium audio for any environment. Whether on a flight, in the office, or at home, the Bose QC45 blocks out distractions, offering an immersive listening experience.",
-          "price": 429.99,
-          "offerPrice": 329.99,
+          "name": "Luna Knit Handbag",
+          "description": "This beautifully handcrafted knit bag blends traditional craftsmanship with modern style. Made with care by local artisans, it’s lightweight, durable, and perfect for everyday use. A unique fashion statement that supports Indonesian creativity.",
+          "price": 349.99,
+          "offerPrice": 279.99,
           "image": [
             "https://res.cloudinary.com/djbvf02yt/image/upload/v1738667311/m16coelz8ivkk9f0nwrz.png"
           ],
@@ -409,8 +409,8 @@ export const orderDummyData = [
         "product": {
           "_id": "67a1f4e43f34a77b6dde9144",
           "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-          "name": "Apple AirPods Pro",
-          "description": "Apple AirPods Pro (2nd Gen) with MagSafe Case (USB-C) provide excellent sound, active noise cancellation, and a comfortable fit. The USB-C case ensures quick charging, and they pair seamlessly with Apple devices for an effortless audio experience.",
+          "name": "BlushStride Docmart Shoes",
+          "description": "Unleash your bold side with BlushStride Docmart Boots — specially designed for girls who embrace strength and style. Featuring soft pink leather, cushioned insoles, and a timeless silhouette, they’re perfect for everyday looks",
           "price": 499.99,
           "offerPrice": 399.99,
           "image": [
