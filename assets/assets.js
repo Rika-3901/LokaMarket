@@ -40,7 +40,19 @@ import md_controller_image from "./md_controller_image.png";
 import sm_controller_image from "./sm_controller_image.png";
 import jbl_soundbox_image from "./jbl_soundbox_image.png";
 import boy_with_laptop_image from "./boy_with_laptop_image.png";
+import girl_with_bag_image from "./girl_with_bag_image.jpeg";
+import girl_with_batik_1_image from "./girl_with_batik_1_image.jpeg";
+import girl_with_batik_2_image from "./girl_with_batik_2_image.jpeg";
+import backpack_batik_image from "./backpack_batik_image.png";
+import docmart_shoes_image from "./docmart_shoes_image.png";
+import rattan_bag_image from "./rattan_bag_image.png";
+import totebag_batik_image from "./totebag_batik_image.png";
 import checkmark from "./checkmark.png";
+import elephant_wallet_image from "./elephant_wallet_image.png";
+import knit_bag_image from "./knit_bag_image.png";
+import knit_hat_image from "./knit_hat_image.png";
+import leather_jacket_image from "./leather_jacket_image.png";
+import leather_shoes_image from "./leather_shoes_image.png";
 import product_details_page_apple_earphone_image1 from "./product_details_page_apple_earphone_image1.png";
 import product_details_page_apple_earphone_image2 from "./product_details_page_apple_earphone_image2.png";
 import product_details_page_apple_earphone_image3 from "./product_details_page_apple_earphone_image3.png";
@@ -90,6 +102,18 @@ export const assets = {
   sm_controller_image,
   jbl_soundbox_image,
   boy_with_laptop_image,
+  girl_with_bag_image,
+  girl_with_batik_1_image,
+  girl_with_batik_2_image,
+  backpack_batik_image,
+  docmart_shoes_image,
+  rattan_bag_image,
+  totebag_batik_image,
+  elephant_wallet_image,
+  knit_bag_image,
+  knit_hat_image,
+  leather_jacket_image,
+  leather_shoes_image,
   product_details_page_apple_earphone_image1,
   product_details_page_apple_earphone_image2,
   product_details_page_apple_earphone_image3,

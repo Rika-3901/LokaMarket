@@ -7,7 +7,7 @@ export const products = [
     description: "Noise-cancellation, 40-hour battery",
     rating: 4.5,
     price: "$299.99",
-    imgSrc: assets.apple_earphone_image,
+    imgSrc: assets.leather_jacket_image,
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const products = [
     description: "Noise Cancellation, 24-hour battery",
     rating: 4.5,
     price: "$329.99",
-    imgSrc: assets.bose_headphone_image,
+    imgSrc: assets.totebag_batik_image,
   },
   {
     id: 3,
@@ -23,7 +23,7 @@ export const products = [
     description: "Fitness Tracking, AMOLED Display",
     rating: 4.5,
     price: "$799.99",
-    imgSrc: assets.samsung_s23phone_image,
+    imgSrc: assets.leather_shoes_image,
   },
   {
     id: 4,
@@ -31,7 +31,7 @@ export const products = [
     description: "Noise Cancellation, 24-hour battery",
     rating: 4.5,
     price: "$349.99",
-    imgSrc: assets.venu_watch_image,
+    imgSrc: assets.docmart_shoes_image,
   },
   {
     id: 5,
@@ -39,7 +39,7 @@ export const products = [
     description: "Ultra-HD, 825GB SSD, Ray Graphics",
     rating: 4.5,
     price: "$499.99",
-    imgSrc: assets.apple_earphone_image,
+    imgSrc: assets.backpack_batik_image,
   },
   {
     id: 6,
@@ -47,7 +47,7 @@ export const products = [
     description: "45MP Sensor, 8K Video Recording",
     rating: 4.5,
     price: "$3,899.99",
-    imgSrc: assets.cannon_camera_image,
+    imgSrc: assets.elephant_wallet_image,
   },
   {
     id: 7,
@@ -55,7 +55,7 @@ export const products = [
     description: "M2 Pro Chip, 16GB RAM, 512GB SSD",
     rating: 4.5,
     price: "$2,499.99",
-    imgSrc: assets.macbook_image,
+    imgSrc: assets.knit_bag_image,
   },
   {
     id: 8,
@@ -63,7 +63,7 @@ export const products = [
     description: "Noise-Cancellation, Hi-Res Audio",
     rating: 4.5,
     price: "$299.99",
-    imgSrc: assets.sony_airbuds_image,
+    imgSrc: assets.knit_hat_image,
   },
   {
     id: 9,
