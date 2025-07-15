@@ -1,7 +1,7 @@
-import mongoose from "mongoose";
+    import mongoose from "mongoose";
 
-// ✅ Tambahkan baris ini!
-const MONGODB_URI = process.env.MONGODB_URI;
+    // ✅ Tambahkan baris ini agar tidak error!
+    const MONGODB_URI = process.env.MONGODB_URI;
 
     if (!MONGODB_URI) {
     throw new Error("❌ MONGODB_URI is not defined in environment variables");
@@ -25,7 +25,6 @@ const MONGODB_URI = process.env.MONGODB_URI;
         useUnifiedTopology: true,
         };
 
-        // ✅ Gunakan URI yang sudah pasti ada
         cached.promise = mongoose.connect(MONGODB_URI, opts).then((mongoose) => mongoose);
     }
 
@@ -33,4 +32,4 @@ const MONGODB_URI = process.env.MONGODB_URI;
     return cached.conn;
     }
 
-export default connectDB;
+    export default connectDB;
