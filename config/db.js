@@ -1,27 +1,36 @@
 import mongoose from "mongoose";
 
-let cached = global.mongoose
+// ✅ Tambahkan baris ini!
+const MONGODB_URI = process.env.MONGODB_URI;
 
-if (!cached) {
-    cached = global.mongoose = { conn: null, Promise: null}
-}
-
-async function connectDB() {
-
-    if (cached.conn){
-        return cached.conn
+    if (!MONGODB_URI) {
+    throw new Error("❌ MONGODB_URI is not defined in environment variables");
     }
 
-    if (!cached.Promise){
+    let cached = global.mongoose;
+
+    if (!cached) {
+    cached = global.mongoose = { conn: null, promise: null };
+    }
+
+    async function connectDB() {
+    if (cached.conn) {
+        return cached.conn;
+    }
+
+    if (!cached.promise) {
         const opts = {
-            bufferCommands:false
-        }
-        cached.promise = mongoose.connect(MONGODB_URI, opts).then(mongoose => {
-            return mongoose
-        })
+        bufferCommands: false,
+        useNewUrlParser: true,
+        useUnifiedTopology: true,
+        };
+
+        // ✅ Gunakan URI yang sudah pasti ada
+        cached.promise = mongoose.connect(MONGODB_URI, opts).then((mongoose) => mongoose);
     }
 
-    cached.conn = await cached.promise
-    return cached.conn
-}
-export default connectDB
+    cached.conn = await cached.promise;
+    return cached.conn;
+    }
+
+export default connectDB;
