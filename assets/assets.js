@@ -176,7 +176,7 @@ export const productsDummyData = [
       "https://raw.githubusercontent.com/Rika-3901/LokaMarket/main/assets/hat2_image.png",
       "https://raw.githubusercontent.com/Rika-3901/LokaMarket/main/assets/hat3_image.png"
     ],
-    "category": "accessories",
+    "category": "Accessories",
     "date": 1738667236865,
     "__v": 0
   },
@@ -310,8 +310,8 @@ export const productsDummyData = [
 
 export const userDummyData = {
   "_id": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-  "name": "GreatStack",
-  "email": "admin@example.com",
+  "name": "Rika",
+  "email": "rikadoubleyou@gmail.com",
   "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoiZGVmYXVsdCIsImlpZCI6Imluc18ycnlnUnFiUDBYT2dEZ2h1ZmRXcGlpdWV5OXoiLCJyaWQiOiJ1c2VyXzJzWkZIUzFVSUl5c0p5RFZ6Q3BRaFVoVElodyJ9",
   "cartItems": {
     // "67a1f4e43f34a77b6dde9144": 3
@@ -333,12 +333,12 @@ export const orderDummyData = [
           "price": 199.99,
           "offerPrice": 149.99,
           "image": [
-            "https://res.cloudinary.com/djbvf02yt/image/upload/v1738667237/lrllaprpos2pnp5c9pyy.png",
-            "https://res.cloudinary.com/djbvf02yt/image/upload/v1738667238/jqotgy2rvm36vfjv6lxl.png",
-            "https://res.cloudinary.com/djbvf02yt/image/upload/v1738667238/niw7tqxvjsxt7wcehxeo.png",
-            "https://res.cloudinary.com/djbvf02yt/image/upload/v1738667237/h8cq4x9cfzqzwaiarvpk.png"
-          ],
-          "category": "Earphone",
+            "https://raw.githubusercontent.com/Rika-3901/LokaMarket/main/assets/knit_hat_image.png",
+            "https://raw.githubusercontent.com/Rika-3901/LokaMarket/main/assets/hat1_image.png",
+            "https://raw.githubusercontent.com/Rika-3901/LokaMarket/main/assets/hat2_image.png",
+            "https://raw.githubusercontent.com/Rika-3901/LokaMarket/main/assets/hat3_image.png"
+                ],
+          "category": "Accessories",
           "date": 1738667236865,
           "__v": 0
         },
@@ -375,9 +375,9 @@ export const orderDummyData = [
           "price": 349.99,
           "offerPrice": 279.99,
           "image": [
-            "https://res.cloudinary.com/djbvf02yt/image/upload/v1738667311/m16coelz8ivkk9f0nwrz.png"
+            "https://raw.githubusercontent.com/Rika-3901/LokaMarket/main/assets/knit_bag_image.png"
           ],
-          "category": "Headphone",
+          "category": "Bag",
           "date": 1738667310300,
           "__v": 0
         },
@@ -414,12 +414,9 @@ export const orderDummyData = [
           "price": 499.99,
           "offerPrice": 399.99,
           "image": [
-            "https://res.cloudinary.com/djbvf02yt/image/upload/v1738667237/lrllaprpos2pnp5c9pyy.png",
-            "https://res.cloudinary.com/djbvf02yt/image/upload/v1738667238/jqotgy2rvm36vfjv6lxl.png",
-            "https://res.cloudinary.com/djbvf02yt/image/upload/v1738667238/niw7tqxvjsxt7wcehxeo.png",
-            "https://res.cloudinary.com/djbvf02yt/image/upload/v1738667237/h8cq4x9cfzqzwaiarvpk.png"
+            "https://raw.githubusercontent.com/Rika-3901/LokaMarket/main/assets/docmart_shoes_image.png"
           ],
-          "category": "Earphone",
+          "category": "Shoes",
           "date": 1738667236865,
           "__v": 0
         },
