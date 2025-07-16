@@ -1,23 +1,28 @@
-import connectDB from "@/config/db";
-import User from '@models/user';
-import { getAuth } from "@clerk/nextjs/server";
-import { NextResponse } from "next/server";
+import { NextResponse } from 'next/server';
+import { auth } from '@clerk/nextjs';
+import connectDB from '@/lib/connectDB';
+import User from '../../../../../../models/user'; // ✅ Naik 4 folder ke root
 
+export async function GET() {
+        try {
+            await connectDB();
 
-export async function GET(request) {
-    try  {
-        const { userId } = getAuth(request)
+            const { userId } = auth();
 
-        await connectDB()
-        const user = await User.findById(userId)
+            if (!userId) {
+            return NextResponse.json({ success: false, message: 'Unauthorized' }, { status: 401 });
+            }
 
-        if (!user) {
-            return NextResponse.json({ success: false, message: "User Not Found"})
+            const user = await User.findById(userId);
+
+            if (!user) {
+            return NextResponse.json({ success: false, message: 'User not found' }, { status: 404 });
+            }
+
+            return NextResponse.json({ success: true, user }, { status: 200 });
+
+        } catch (error) {
+            console.error('Error fetching user data:', error);
+            return NextResponse.json({ success: false, message: 'Internal Server Error' }, { status: 500 });
         }
-
-        return NextResponse.json({succes: true, user})
-
-    } catch (error) {
-        return NextResponse.json({ success: false, message: error.message})
-    }
-}
+        }
