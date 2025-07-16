@@ -389,8 +389,8 @@ export const orderDummyData = [
     "address": {
       "_id": "67a1e4233f34a77b6dde9055",
       "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-      "fullName": "GreatStack",
-      "phoneNumber": "0123456789",
+      "fullName": "Rika",
+      "phoneNumber": "081411141883",
       "pincode": 654321,
       "area": "Main Road , 123 Street, G Block",
       "city": "City",
@@ -428,8 +428,8 @@ export const orderDummyData = [
     "address": {
       "_id": "67a1e4233f34a77b6dde9055",
       "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-      "fullName": "GreatStack",
-      "phoneNumber": "0123456789",
+      "fullName": "Rika",
+      "phoneNumber": "081411141883",
       "pincode": 654321,
       "area": "Main Road , 123 Street, G Block",
       "city": "City",
@@ -446,8 +446,8 @@ export const addressDummyData = [
   {
     "_id": "67a1e4233f34a77b6dde9055",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "fullName": "GreatStack",
-    "phoneNumber": "0123456789",
+    "fullName": "Rika",
+    "phoneNumber": "081411141883",
     "pincode": 654321,
     "area": "Main Road , 123 Street, G Block",
     "city": "City",
