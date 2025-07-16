@@ -350,10 +350,10 @@ export const orderDummyData = [
     "address": {
       "_id": "67a1e4233f34a77b6dde9055",
       "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-      "fullName": "GreatStack",
-      "phoneNumber": "0123456789",
+      "fullName": "Rika",
+      "phoneNumber": "081411141883",
       "pincode": 654321,
-      "area": "Main Road , 123 Street, G Block",
+      "area": "Muktijaya , Rt/Rw.002, Setu",
       "city": "City",
       "state": "State",
       "__v": 0
@@ -392,7 +392,7 @@ export const orderDummyData = [
       "fullName": "Rika",
       "phoneNumber": "081411141883",
       "pincode": 654321,
-      "area": "Main Road , 123 Street, G Block",
+      "area": "Muktijaya , Rt/Rw.002, Setu",
       "city": "City",
       "state": "State",
       "__v": 0
@@ -431,7 +431,7 @@ export const orderDummyData = [
       "fullName": "Rika",
       "phoneNumber": "081411141883",
       "pincode": 654321,
-      "area": "Main Road , 123 Street, G Block",
+      "area": "Muktijaya , Rt/Rw.002, Setu",
       "city": "City",
       "state": "State",
       "__v": 0
@@ -449,7 +449,7 @@ export const addressDummyData = [
     "fullName": "Rika",
     "phoneNumber": "081411141883",
     "pincode": 654321,
-    "area": "Main Road , 123 Street, G Block",
+    "area": "Muktijaya , Rt/Rw.002, Setu",
     "city": "City",
     "state": "State",
     "__v": 0
